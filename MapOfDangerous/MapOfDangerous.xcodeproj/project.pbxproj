@@ -1,0 +1,1055 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A91805F6776104E4A8E6E13 /* Pods_MapOfDangerous.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42422D9AEC1EB09DFEDB5C70 /* Pods_MapOfDangerous.framework */; };
+		0D2C27E3B67B606C2FC56055 /* Pods_MapOfDangerous_MapOfDangerousUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D05BCE53A0156D96A2B14E /* Pods_MapOfDangerous_MapOfDangerousUITests.framework */; };
+		1EDC44C88A41199FE7D7718A /* Pods_MapOfDangerousTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4CE1853DE39AC8B8C58B58 /* Pods_MapOfDangerousTests.framework */; };
+		593679E0277C923300AFFA52 /* styleDark.json in Resources */ = {isa = PBXBuildFile; fileRef = 593679DF277C923300AFFA52 /* styleDark.json */; };
+		594361AD27687ACC00177E0C /* DangerousModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594361AC27687ACC00177E0C /* DangerousModel.swift */; };
+		594361AF27687F7900177E0C /* InputDetailInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594361AE27687F7900177E0C /* InputDetailInfoViewController.swift */; };
+		594361B12768994F00177E0C /* DangerousDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594361B02768994F00177E0C /* DangerousDetailData.swift */; };
+		594361B32769C6C400177E0C /* DiscussViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594361B22769C6C400177E0C /* DiscussViewController.swift */; };
+		594361B8276C3E6D00177E0C /* DiscordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594361B6276C3E6D00177E0C /* DiscordTableViewCell.swift */; };
+		594361B9276C3E6D00177E0C /* DiscordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 594361B7276C3E6D00177E0C /* DiscordTableViewCell.xib */; };
+		594361BC276C41C400177E0C /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594361BA276C41C400177E0C /* TitleTableViewCell.swift */; };
+		594361BD276C41C400177E0C /* TitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 594361BB276C41C400177E0C /* TitleTableViewCell.xib */; };
+		594361C0276C92D200177E0C /* DiscussMessageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594361BF276C92D200177E0C /* DiscussMessageData.swift */; };
+		594361C3276F047500177E0C /* IMG_1817.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 594361C2276F047500177E0C /* IMG_1817.JPG */; };
+		594361C7276F17C900177E0C /* AnimatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594361C6276F17C900177E0C /* AnimatorManager.swift */; };
+		594361C9276F26E000177E0C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594361C8276F26E000177E0C /* APIManager.swift */; };
+		594AC24E277D47FA00736A8D /* CriminalIncidentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594AC24D277D47FA00736A8D /* CriminalIncidentViewController.swift */; };
+		594AC250277D4AD400736A8D /* CriminalIncidentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594AC24F277D4AD400736A8D /* CriminalIncidentData.swift */; };
+		594AC252277F07C300736A8D /* EditPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594AC251277F07C300736A8D /* EditPasswordViewController.swift */; };
+		594AC254277F084C00736A8D /* EditPasswordViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594AC253277F084C00736A8D /* EditPasswordViewController.storyboard */; };
+		594AC256277F502500736A8D /* NewsTickerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594AC255277F502500736A8D /* NewsTickerData.swift */; };
+		594AC25827818D2200736A8D /* dangerMapLauch_工作區域 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 594AC25727818D2100736A8D /* dangerMapLauch_工作區域 1.png */; };
+		594AC2AA2784725700736A8D /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594AC2A92784725600736A8D /* AlertManager.swift */; };
+		5952959527731CB4009C0A0A /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5952959427731CB4009C0A0A /* TestViewController.swift */; };
+		595295972774496E009C0A0A /* UploadImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595295962774496E009C0A0A /* UploadImageData.swift */; };
+		595295992774584C009C0A0A /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 595295982774584C009C0A0A /* style.json */; };
+		5952959E2779CCB3009C0A0A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5952959D2779CCB2009C0A0A /* SignInViewController.swift */; };
+		595295A22779EFF5009C0A0A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595295A12779EFF5009C0A0A /* SignUpViewController.swift */; };
+		595295A42779F142009C0A0A /* SignUpViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595295A32779F142009C0A0A /* SignUpViewController.storyboard */; };
+		595295A62779F57A009C0A0A /* CarAccidentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595295A52779F579009C0A0A /* CarAccidentData.swift */; };
+		595295AB2779FC60009C0A0A /* HistoryEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595295AA2779FC60009C0A0A /* HistoryEventViewController.swift */; };
+		595295AD2779FF03009C0A0A /* SelectSkinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595295AC2779FF03009C0A0A /* SelectSkinViewController.swift */; };
+		595295AF277A01FB009C0A0A /* HistoryEventViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595295AE277A01FB009C0A0A /* HistoryEventViewController.storyboard */; };
+		595295B1277A07C6009C0A0A /* HistoryEventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595295B0277A07C6009C0A0A /* HistoryEventModel.swift */; };
+		595295B3277B526E009C0A0A /* MemberData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595295B2277B526E009C0A0A /* MemberData.swift */; };
+		595295B5277B5AEC009C0A0A /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595295B4277B5AEC009C0A0A /* UserDefaultManager.swift */; };
+		59730ABC2767289E00FE8183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59730ABB2767289E00FE8183 /* AppDelegate.swift */; };
+		59730ABE2767289E00FE8183 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59730ABD2767289E00FE8183 /* SceneDelegate.swift */; };
+		59730AC02767289E00FE8183 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59730ABF2767289E00FE8183 /* ViewController.swift */; };
+		59730AC32767289E00FE8183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59730AC12767289E00FE8183 /* Main.storyboard */; };
+		59730AC5276728A000FE8183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59730AC4276728A000FE8183 /* Assets.xcassets */; };
+		59730AC8276728A000FE8183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59730AC6276728A000FE8183 /* LaunchScreen.storyboard */; };
+		59730AD3276728A000FE8183 /* MapOfDangerousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59730AD2276728A000FE8183 /* MapOfDangerousTests.swift */; };
+		59730ADD276728A000FE8183 /* MapOfDangerousUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59730ADC276728A000FE8183 /* MapOfDangerousUITests.swift */; };
+		59730ADF276728A000FE8183 /* MapOfDangerousUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59730ADE276728A000FE8183 /* MapOfDangerousUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59730ACF276728A000FE8183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59730AB02767289E00FE8183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59730AB72767289E00FE8183;
+			remoteInfo = MapOfDangerous;
+		};
+		59730AD9276728A000FE8183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59730AB02767289E00FE8183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59730AB72767289E00FE8183;
+			remoteInfo = MapOfDangerous;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D05BCE53A0156D96A2B14E /* Pods_MapOfDangerous_MapOfDangerousUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapOfDangerous_MapOfDangerousUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DE5C139CA03AE130E1D129 /* Pods-MapOfDangerousTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapOfDangerousTests.debug.xcconfig"; path = "Target Support Files/Pods-MapOfDangerousTests/Pods-MapOfDangerousTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42422D9AEC1EB09DFEDB5C70 /* Pods_MapOfDangerous.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapOfDangerous.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC06B88E29BE77602922AD6 /* Pods-MapOfDangerous.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapOfDangerous.release.xcconfig"; path = "Target Support Files/Pods-MapOfDangerous/Pods-MapOfDangerous.release.xcconfig"; sourceTree = "<group>"; };
+		593679DF277C923300AFFA52 /* styleDark.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = styleDark.json; sourceTree = "<group>"; };
+		594361AC27687ACC00177E0C /* DangerousModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerousModel.swift; sourceTree = "<group>"; };
+		594361AE27687F7900177E0C /* InputDetailInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDetailInfoViewController.swift; sourceTree = "<group>"; };
+		594361B02768994F00177E0C /* DangerousDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerousDetailData.swift; sourceTree = "<group>"; };
+		594361B22769C6C400177E0C /* DiscussViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscussViewController.swift; sourceTree = "<group>"; };
+		594361B6276C3E6D00177E0C /* DiscordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscordTableViewCell.swift; sourceTree = "<group>"; };
+		594361B7276C3E6D00177E0C /* DiscordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscordTableViewCell.xib; sourceTree = "<group>"; };
+		594361BA276C41C400177E0C /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		594361BB276C41C400177E0C /* TitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleTableViewCell.xib; sourceTree = "<group>"; };
+		594361BF276C92D200177E0C /* DiscussMessageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscussMessageData.swift; sourceTree = "<group>"; };
+		594361C2276F047500177E0C /* IMG_1817.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1817.JPG; sourceTree = "<group>"; };
+		594361C6276F17C900177E0C /* AnimatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatorManager.swift; sourceTree = "<group>"; };
+		594361C8276F26E000177E0C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		594AC24D277D47FA00736A8D /* CriminalIncidentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriminalIncidentViewController.swift; sourceTree = "<group>"; };
+		594AC24F277D4AD400736A8D /* CriminalIncidentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriminalIncidentData.swift; sourceTree = "<group>"; };
+		594AC251277F07C300736A8D /* EditPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPasswordViewController.swift; sourceTree = "<group>"; };
+		594AC253277F084C00736A8D /* EditPasswordViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditPasswordViewController.storyboard; sourceTree = "<group>"; };
+		594AC255277F502500736A8D /* NewsTickerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTickerData.swift; sourceTree = "<group>"; };
+		594AC25727818D2100736A8D /* dangerMapLauch_工作區域 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dangerMapLauch_工作區域 1.png"; sourceTree = "<group>"; };
+		594AC2A92784725600736A8D /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		5952959427731CB4009C0A0A /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		595295962774496E009C0A0A /* UploadImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageData.swift; sourceTree = "<group>"; };
+		595295982774584C009C0A0A /* style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		5952959D2779CCB2009C0A0A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		595295A12779EFF5009C0A0A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		595295A32779F142009C0A0A /* SignUpViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpViewController.storyboard; sourceTree = "<group>"; };
+		595295A52779F579009C0A0A /* CarAccidentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAccidentData.swift; sourceTree = "<group>"; };
+		595295AA2779FC60009C0A0A /* HistoryEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryEventViewController.swift; sourceTree = "<group>"; };
+		595295AC2779FF03009C0A0A /* SelectSkinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSkinViewController.swift; sourceTree = "<group>"; };
+		595295AE277A01FB009C0A0A /* HistoryEventViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HistoryEventViewController.storyboard; sourceTree = "<group>"; };
+		595295B0277A07C6009C0A0A /* HistoryEventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryEventModel.swift; sourceTree = "<group>"; };
+		595295B2277B526E009C0A0A /* MemberData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberData.swift; sourceTree = "<group>"; };
+		595295B4277B5AEC009C0A0A /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		59730AB82767289E00FE8183 /* MapOfDangerous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapOfDangerous.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59730ABB2767289E00FE8183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59730ABD2767289E00FE8183 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		59730ABF2767289E00FE8183 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59730AC22767289E00FE8183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59730AC4276728A000FE8183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59730AC7276728A000FE8183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59730AC9276728A000FE8183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59730ACE276728A000FE8183 /* MapOfDangerousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapOfDangerousTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59730AD2276728A000FE8183 /* MapOfDangerousTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOfDangerousTests.swift; sourceTree = "<group>"; };
+		59730AD8276728A000FE8183 /* MapOfDangerousUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapOfDangerousUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59730ADC276728A000FE8183 /* MapOfDangerousUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOfDangerousUITests.swift; sourceTree = "<group>"; };
+		59730ADE276728A000FE8183 /* MapOfDangerousUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOfDangerousUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8BB6F5BF09F44206B6BD785F /* Pods-MapOfDangerous-MapOfDangerousUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapOfDangerous-MapOfDangerousUITests.debug.xcconfig"; path = "Target Support Files/Pods-MapOfDangerous-MapOfDangerousUITests/Pods-MapOfDangerous-MapOfDangerousUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AA448C401682E2BD24D8929 /* Pods-MapOfDangerous.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapOfDangerous.debug.xcconfig"; path = "Target Support Files/Pods-MapOfDangerous/Pods-MapOfDangerous.debug.xcconfig"; sourceTree = "<group>"; };
+		9D4CE1853DE39AC8B8C58B58 /* Pods_MapOfDangerousTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapOfDangerousTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D245395F56203CA4854FC02B /* Pods-MapOfDangerous-MapOfDangerousUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapOfDangerous-MapOfDangerousUITests.release.xcconfig"; path = "Target Support Files/Pods-MapOfDangerous-MapOfDangerousUITests/Pods-MapOfDangerous-MapOfDangerousUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DA2451A9C3C7DA85C4CEEA57 /* Pods-MapOfDangerousTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapOfDangerousTests.release.xcconfig"; path = "Target Support Files/Pods-MapOfDangerousTests/Pods-MapOfDangerousTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59730AB52767289E00FE8183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A91805F6776104E4A8E6E13 /* Pods_MapOfDangerous.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59730ACB276728A000FE8183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDC44C88A41199FE7D7718A /* Pods_MapOfDangerousTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59730AD5276728A000FE8183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2C27E3B67B606C2FC56055 /* Pods_MapOfDangerous_MapOfDangerousUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B18E33956CED06F03352447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AA448C401682E2BD24D8929 /* Pods-MapOfDangerous.debug.xcconfig */,
+				4AC06B88E29BE77602922AD6 /* Pods-MapOfDangerous.release.xcconfig */,
+				8BB6F5BF09F44206B6BD785F /* Pods-MapOfDangerous-MapOfDangerousUITests.debug.xcconfig */,
+				D245395F56203CA4854FC02B /* Pods-MapOfDangerous-MapOfDangerousUITests.release.xcconfig */,
+				37DE5C139CA03AE130E1D129 /* Pods-MapOfDangerousTests.debug.xcconfig */,
+				DA2451A9C3C7DA85C4CEEA57 /* Pods-MapOfDangerousTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4734949917EBA906D6E00503 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42422D9AEC1EB09DFEDB5C70 /* Pods_MapOfDangerous.framework */,
+				00D05BCE53A0156D96A2B14E /* Pods_MapOfDangerous_MapOfDangerousUITests.framework */,
+				9D4CE1853DE39AC8B8C58B58 /* Pods_MapOfDangerousTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		594361B4276C3C8200177E0C /* DiscordView */ = {
+			isa = PBXGroup;
+			children = (
+				594361B22769C6C400177E0C /* DiscussViewController.swift */,
+				594361B6276C3E6D00177E0C /* DiscordTableViewCell.swift */,
+				594361B7276C3E6D00177E0C /* DiscordTableViewCell.xib */,
+				594361BA276C41C400177E0C /* TitleTableViewCell.swift */,
+				594361BB276C41C400177E0C /* TitleTableViewCell.xib */,
+			);
+			path = DiscordView;
+			sourceTree = "<group>";
+		};
+		594361B5276C3C9500177E0C /* InputInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				594361AE27687F7900177E0C /* InputDetailInfoViewController.swift */,
+			);
+			path = InputInfoView;
+			sourceTree = "<group>";
+		};
+		594361BE276C92B200177E0C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				594361B02768994F00177E0C /* DangerousDetailData.swift */,
+				594361BF276C92D200177E0C /* DiscussMessageData.swift */,
+				595295962774496E009C0A0A /* UploadImageData.swift */,
+				595295A52779F579009C0A0A /* CarAccidentData.swift */,
+				595295B2277B526E009C0A0A /* MemberData.swift */,
+				594AC24F277D4AD400736A8D /* CriminalIncidentData.swift */,
+				594AC255277F502500736A8D /* NewsTickerData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		594361C1276DEA5900177E0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				594361AC27687ACC00177E0C /* DangerousModel.swift */,
+				595295B0277A07C6009C0A0A /* HistoryEventModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		594361CA276F26ED00177E0C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				594361C6276F17C900177E0C /* AnimatorManager.swift */,
+				594361C8276F26E000177E0C /* APIManager.swift */,
+				595295B4277B5AEC009C0A0A /* UserDefaultManager.swift */,
+				594AC2A92784725600736A8D /* AlertManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		5952959C2779CC8E009C0A0A /* SignInView */ = {
+			isa = PBXGroup;
+			children = (
+				5952959D2779CCB2009C0A0A /* SignInViewController.swift */,
+				594AC251277F07C300736A8D /* EditPasswordViewController.swift */,
+				594AC253277F084C00736A8D /* EditPasswordViewController.storyboard */,
+			);
+			path = SignInView;
+			sourceTree = "<group>";
+		};
+		5952959F2779CCFD009C0A0A /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				595295A72779FB27009C0A0A /* HistoryEventView */,
+				59730AC12767289E00FE8183 /* Main.storyboard */,
+				59730ABF2767289E00FE8183 /* ViewController.swift */,
+				595295AC2779FF03009C0A0A /* SelectSkinViewController.swift */,
+				594361B4276C3C8200177E0C /* DiscordView */,
+				594361B5276C3C9500177E0C /* InputInfoView */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		595295A02779EFDB009C0A0A /* SignUpView */ = {
+			isa = PBXGroup;
+			children = (
+				595295A12779EFF5009C0A0A /* SignUpViewController.swift */,
+				595295A32779F142009C0A0A /* SignUpViewController.storyboard */,
+			);
+			path = SignUpView;
+			sourceTree = "<group>";
+		};
+		595295A72779FB27009C0A0A /* HistoryEventView */ = {
+			isa = PBXGroup;
+			children = (
+				595295AA2779FC60009C0A0A /* HistoryEventViewController.swift */,
+				595295AE277A01FB009C0A0A /* HistoryEventViewController.storyboard */,
+				594AC24D277D47FA00736A8D /* CriminalIncidentViewController.swift */,
+			);
+			path = HistoryEventView;
+			sourceTree = "<group>";
+		};
+		59730AAF2767289E00FE8183 = {
+			isa = PBXGroup;
+			children = (
+				59730ABA2767289E00FE8183 /* MapOfDangerous */,
+				59730AD1276728A000FE8183 /* MapOfDangerousTests */,
+				59730ADB276728A000FE8183 /* MapOfDangerousUITests */,
+				59730AB92767289E00FE8183 /* Products */,
+				0B18E33956CED06F03352447 /* Pods */,
+				4734949917EBA906D6E00503 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59730AB92767289E00FE8183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59730AB82767289E00FE8183 /* MapOfDangerous.app */,
+				59730ACE276728A000FE8183 /* MapOfDangerousTests.xctest */,
+				59730AD8276728A000FE8183 /* MapOfDangerousUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59730ABA2767289E00FE8183 /* MapOfDangerous */ = {
+			isa = PBXGroup;
+			children = (
+				595295A02779EFDB009C0A0A /* SignUpView */,
+				5952959F2779CCFD009C0A0A /* MainView */,
+				5952959C2779CC8E009C0A0A /* SignInView */,
+				594361CA276F26ED00177E0C /* Manager */,
+				594361C1276DEA5900177E0C /* Model */,
+				594361BE276C92B200177E0C /* Data */,
+				59730ABB2767289E00FE8183 /* AppDelegate.swift */,
+				59730ABD2767289E00FE8183 /* SceneDelegate.swift */,
+				5952959427731CB4009C0A0A /* TestViewController.swift */,
+				594361C2276F047500177E0C /* IMG_1817.JPG */,
+				594AC25727818D2100736A8D /* dangerMapLauch_工作區域 1.png */,
+				59730AC4276728A000FE8183 /* Assets.xcassets */,
+				59730AC6276728A000FE8183 /* LaunchScreen.storyboard */,
+				59730AC9276728A000FE8183 /* Info.plist */,
+				595295982774584C009C0A0A /* style.json */,
+				593679DF277C923300AFFA52 /* styleDark.json */,
+			);
+			path = MapOfDangerous;
+			sourceTree = "<group>";
+		};
+		59730AD1276728A000FE8183 /* MapOfDangerousTests */ = {
+			isa = PBXGroup;
+			children = (
+				59730AD2276728A000FE8183 /* MapOfDangerousTests.swift */,
+			);
+			path = MapOfDangerousTests;
+			sourceTree = "<group>";
+		};
+		59730ADB276728A000FE8183 /* MapOfDangerousUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59730ADC276728A000FE8183 /* MapOfDangerousUITests.swift */,
+				59730ADE276728A000FE8183 /* MapOfDangerousUITestsLaunchTests.swift */,
+			);
+			path = MapOfDangerousUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59730AB72767289E00FE8183 /* MapOfDangerous */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59730AE2276728A000FE8183 /* Build configuration list for PBXNativeTarget "MapOfDangerous" */;
+			buildPhases = (
+				97DE43910DE5F0EB5704CA3A /* [CP] Check Pods Manifest.lock */,
+				59730AB42767289E00FE8183 /* Sources */,
+				59730AB52767289E00FE8183 /* Frameworks */,
+				59730AB62767289E00FE8183 /* Resources */,
+				8DC130334B45FDBF110159DC /* [CP] Embed Pods Frameworks */,
+				59730AEB2767298800FE8183 /* ShellScript */,
+				E8D804D51C2CFBEDE6C47033 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapOfDangerous;
+			productName = MapOfDangerous;
+			productReference = 59730AB82767289E00FE8183 /* MapOfDangerous.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59730ACD276728A000FE8183 /* MapOfDangerousTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59730AE5276728A000FE8183 /* Build configuration list for PBXNativeTarget "MapOfDangerousTests" */;
+			buildPhases = (
+				4A51B2623046C9AD9F43D935 /* [CP] Check Pods Manifest.lock */,
+				59730ACA276728A000FE8183 /* Sources */,
+				59730ACB276728A000FE8183 /* Frameworks */,
+				59730ACC276728A000FE8183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59730AD0276728A000FE8183 /* PBXTargetDependency */,
+			);
+			name = MapOfDangerousTests;
+			productName = MapOfDangerousTests;
+			productReference = 59730ACE276728A000FE8183 /* MapOfDangerousTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59730AD7276728A000FE8183 /* MapOfDangerousUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59730AE8276728A000FE8183 /* Build configuration list for PBXNativeTarget "MapOfDangerousUITests" */;
+			buildPhases = (
+				7705582BE417C03A7B391B64 /* [CP] Check Pods Manifest.lock */,
+				59730AD4276728A000FE8183 /* Sources */,
+				59730AD5276728A000FE8183 /* Frameworks */,
+				59730AD6276728A000FE8183 /* Resources */,
+				2883B43BB08377B3096DB68C /* [CP] Embed Pods Frameworks */,
+				93024496139474F10F4C31F4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59730ADA276728A000FE8183 /* PBXTargetDependency */,
+			);
+			name = MapOfDangerousUITests;
+			productName = MapOfDangerousUITests;
+			productReference = 59730AD8276728A000FE8183 /* MapOfDangerousUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59730AB02767289E00FE8183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					59730AB72767289E00FE8183 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					59730ACD276728A000FE8183 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 59730AB72767289E00FE8183;
+					};
+					59730AD7276728A000FE8183 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 59730AB72767289E00FE8183;
+					};
+				};
+			};
+			buildConfigurationList = 59730AB32767289E00FE8183 /* Build configuration list for PBXProject "MapOfDangerous" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59730AAF2767289E00FE8183;
+			productRefGroup = 59730AB92767289E00FE8183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59730AB72767289E00FE8183 /* MapOfDangerous */,
+				59730ACD276728A000FE8183 /* MapOfDangerousTests */,
+				59730AD7276728A000FE8183 /* MapOfDangerousUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59730AB62767289E00FE8183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594AC25827818D2200736A8D /* dangerMapLauch_工作區域 1.png in Resources */,
+				594361C3276F047500177E0C /* IMG_1817.JPG in Resources */,
+				594361BD276C41C400177E0C /* TitleTableViewCell.xib in Resources */,
+				594361B9276C3E6D00177E0C /* DiscordTableViewCell.xib in Resources */,
+				595295AF277A01FB009C0A0A /* HistoryEventViewController.storyboard in Resources */,
+				595295A42779F142009C0A0A /* SignUpViewController.storyboard in Resources */,
+				59730AC8276728A000FE8183 /* LaunchScreen.storyboard in Resources */,
+				59730AC5276728A000FE8183 /* Assets.xcassets in Resources */,
+				593679E0277C923300AFFA52 /* styleDark.json in Resources */,
+				594AC254277F084C00736A8D /* EditPasswordViewController.storyboard in Resources */,
+				595295992774584C009C0A0A /* style.json in Resources */,
+				59730AC32767289E00FE8183 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59730ACC276728A000FE8183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59730AD6276728A000FE8183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2883B43BB08377B3096DB68C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapOfDangerous-MapOfDangerousUITests/Pods-MapOfDangerous-MapOfDangerousUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapOfDangerous-MapOfDangerousUITests/Pods-MapOfDangerous-MapOfDangerousUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MapOfDangerous-MapOfDangerousUITests/Pods-MapOfDangerous-MapOfDangerousUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A51B2623046C9AD9F43D935 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapOfDangerousTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59730AEB2767298800FE8183 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n";
+		};
+		7705582BE417C03A7B391B64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapOfDangerous-MapOfDangerousUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DC130334B45FDBF110159DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapOfDangerous/Pods-MapOfDangerous-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapOfDangerous/Pods-MapOfDangerous-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MapOfDangerous/Pods-MapOfDangerous-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93024496139474F10F4C31F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapOfDangerous-MapOfDangerousUITests/Pods-MapOfDangerous-MapOfDangerousUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapOfDangerous-MapOfDangerousUITests/Pods-MapOfDangerous-MapOfDangerousUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MapOfDangerous-MapOfDangerousUITests/Pods-MapOfDangerous-MapOfDangerousUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97DE43910DE5F0EB5704CA3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapOfDangerous-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D804D51C2CFBEDE6C47033 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapOfDangerous/Pods-MapOfDangerous-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MapOfDangerous/Pods-MapOfDangerous-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MapOfDangerous/Pods-MapOfDangerous-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59730AB42767289E00FE8183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594361C9276F26E000177E0C /* APIManager.swift in Sources */,
+				595295A62779F57A009C0A0A /* CarAccidentData.swift in Sources */,
+				594361B8276C3E6D00177E0C /* DiscordTableViewCell.swift in Sources */,
+				594361AD27687ACC00177E0C /* DangerousModel.swift in Sources */,
+				595295AD2779FF03009C0A0A /* SelectSkinViewController.swift in Sources */,
+				594AC24E277D47FA00736A8D /* CriminalIncidentViewController.swift in Sources */,
+				594AC256277F502500736A8D /* NewsTickerData.swift in Sources */,
+				595295AB2779FC60009C0A0A /* HistoryEventViewController.swift in Sources */,
+				594AC2AA2784725700736A8D /* AlertManager.swift in Sources */,
+				594361C7276F17C900177E0C /* AnimatorManager.swift in Sources */,
+				59730AC02767289E00FE8183 /* ViewController.swift in Sources */,
+				5952959527731CB4009C0A0A /* TestViewController.swift in Sources */,
+				594361B32769C6C400177E0C /* DiscussViewController.swift in Sources */,
+				59730ABC2767289E00FE8183 /* AppDelegate.swift in Sources */,
+				594AC250277D4AD400736A8D /* CriminalIncidentData.swift in Sources */,
+				5952959E2779CCB3009C0A0A /* SignInViewController.swift in Sources */,
+				59730ABE2767289E00FE8183 /* SceneDelegate.swift in Sources */,
+				595295A22779EFF5009C0A0A /* SignUpViewController.swift in Sources */,
+				594361C0276C92D200177E0C /* DiscussMessageData.swift in Sources */,
+				595295B3277B526E009C0A0A /* MemberData.swift in Sources */,
+				594AC252277F07C300736A8D /* EditPasswordViewController.swift in Sources */,
+				595295B1277A07C6009C0A0A /* HistoryEventModel.swift in Sources */,
+				594361AF27687F7900177E0C /* InputDetailInfoViewController.swift in Sources */,
+				595295B5277B5AEC009C0A0A /* UserDefaultManager.swift in Sources */,
+				594361BC276C41C400177E0C /* TitleTableViewCell.swift in Sources */,
+				595295972774496E009C0A0A /* UploadImageData.swift in Sources */,
+				594361B12768994F00177E0C /* DangerousDetailData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59730ACA276728A000FE8183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59730AD3276728A000FE8183 /* MapOfDangerousTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59730AD4276728A000FE8183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59730ADD276728A000FE8183 /* MapOfDangerousUITests.swift in Sources */,
+				59730ADF276728A000FE8183 /* MapOfDangerousUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59730AD0276728A000FE8183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59730AB72767289E00FE8183 /* MapOfDangerous */;
+			targetProxy = 59730ACF276728A000FE8183 /* PBXContainerItemProxy */;
+		};
+		59730ADA276728A000FE8183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59730AB72767289E00FE8183 /* MapOfDangerous */;
+			targetProxy = 59730AD9276728A000FE8183 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59730AC12767289E00FE8183 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59730AC22767289E00FE8183 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59730AC6276728A000FE8183 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59730AC7276728A000FE8183 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59730AE0276728A000FE8183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59730AE1276728A000FE8183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59730AE3276728A000FE8183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA448C401682E2BD24D8929 /* Pods-MapOfDangerous.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FT88JC562X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapOfDangerous/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "危機地圖";
+				INFOPLIST_KEY_NSCameraUsageDescription = "要用相機喔";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "要用位置喔";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "要用位置喔";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "要用位置喔";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "要用相簿喔";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.MapOfDangerous;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59730AE4276728A000FE8183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC06B88E29BE77602922AD6 /* Pods-MapOfDangerous.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FT88JC562X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapOfDangerous/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "危機地圖";
+				INFOPLIST_KEY_NSCameraUsageDescription = "要用相機喔";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "要用位置喔";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "要用位置喔";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "要用位置喔";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "要用相簿喔";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.MapOfDangerous;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59730AE6276728A000FE8183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37DE5C139CA03AE130E1D129 /* Pods-MapOfDangerousTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FT88JC562X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.MapOfDangerousTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapOfDangerous.app/MapOfDangerous";
+			};
+			name = Debug;
+		};
+		59730AE7276728A000FE8183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA2451A9C3C7DA85C4CEEA57 /* Pods-MapOfDangerousTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FT88JC562X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.MapOfDangerousTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapOfDangerous.app/MapOfDangerous";
+			};
+			name = Release;
+		};
+		59730AE9276728A000FE8183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB6F5BF09F44206B6BD785F /* Pods-MapOfDangerous-MapOfDangerousUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FT88JC562X;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.MapOfDangerousUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapOfDangerous;
+			};
+			name = Debug;
+		};
+		59730AEA276728A000FE8183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D245395F56203CA4854FC02B /* Pods-MapOfDangerous-MapOfDangerousUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FT88JC562X;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapp.MapOfDangerousUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapOfDangerous;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59730AB32767289E00FE8183 /* Build configuration list for PBXProject "MapOfDangerous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59730AE0276728A000FE8183 /* Debug */,
+				59730AE1276728A000FE8183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59730AE2276728A000FE8183 /* Build configuration list for PBXNativeTarget "MapOfDangerous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59730AE3276728A000FE8183 /* Debug */,
+				59730AE4276728A000FE8183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59730AE5276728A000FE8183 /* Build configuration list for PBXNativeTarget "MapOfDangerousTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59730AE6276728A000FE8183 /* Debug */,
+				59730AE7276728A000FE8183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59730AE8276728A000FE8183 /* Build configuration list for PBXNativeTarget "MapOfDangerousUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59730AE9276728A000FE8183 /* Debug */,
+				59730AEA276728A000FE8183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59730AB02767289E00FE8183 /* Project object */;
+}

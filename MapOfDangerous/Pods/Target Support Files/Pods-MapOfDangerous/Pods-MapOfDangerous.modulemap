@@ -1,0 +1,6 @@
+framework module Pods_MapOfDangerous {
+  umbrella header "Pods-MapOfDangerous-umbrella.h"
+
+  export *
+  module * { export * }
+}
